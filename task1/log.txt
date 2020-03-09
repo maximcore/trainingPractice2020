@@ -1,0 +1,11 @@
+commit 577c774848035b48638c352ba5c5cf7055ac3e5c (HEAD -> master)
+Author: maximcore <maximbeducation@gmail.com>
+Date:   Sun Feb 16 13:40:28 2020 +0300
+
+    add status.txt
+
+commit 105ab66ac95059cf4357c89789b901690c837869
+Author: maximcore <maximbeducation@gmail.com>
+Date:   Sun Feb 16 13:38:38 2020 +0300
+
+    add .gitignore
