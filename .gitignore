@@ -7,3 +7,11 @@
 .idea/
 
 out/
+
+modules.xml
+
+*.ipr
+
+*.class
+
+.target/
