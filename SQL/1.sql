@@ -1,0 +1,4 @@
+USE TwitterDB;
+
+SELECT *FROM post
+ORDER BY CREATED_AT;
