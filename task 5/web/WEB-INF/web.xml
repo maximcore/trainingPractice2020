@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>AppIsRunning</servlet-name>
+        <servlet-class>AppIsRunning</servlet-class>
+    </servlet>
+    <servlet-mapping>
+       <servlet-name>AppIsRunning</servlet-name>
+        <url-pattern>/status</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetName</servlet-name>
+        <servlet-class>GetName</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetName</servlet-name>
+        <url-pattern>/get</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PostJson</servlet-name>
+        <servlet-class>PostJson</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PostJson</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>OpenHtmlPage</servlet-name>
+        <servlet-class>OpenHtmlPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OpenHtmlPage</servlet-name>
+        <url-pattern>/page</url-pattern>
+    </servlet-mapping>
+</web-app>
