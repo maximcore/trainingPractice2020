@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>AppIsRunning</servlet-name>
+    <servlet-class>AppIsRunning</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AppIsRunning</servlet-name>
+    <url-pattern>/status</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>PostsWork1</servlet-name>
+    <servlet-class>PostsWork1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostsWork1</servlet-name>
+    <url-pattern>/tweets/*</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
